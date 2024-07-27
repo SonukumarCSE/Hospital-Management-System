@@ -94,12 +94,4 @@ def main():
             connection.close()
 
 if __name__ == "__main__":
-    
-    connection = mysql.connector.connect(
-            host='localhost',
-            user='root',
-            password='1234'
-        )
-    doc = Doctor(connection)
-    print(doc,"sonu")
     main()

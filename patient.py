@@ -11,7 +11,7 @@ class Patient:
         gender = input("Enter Patient Gender: ")
 
         try:
-            query = "INSERT INTO patients (name, age, gender) VALUES (%s, %s, %s)"
+            query = "INSERT INTO patient (name, age, gender) VALUES (%s, %s, %s)"
             cursor = self.connection.cursor()
             cursor.execute(query, (name, age, gender))
             self.connection.commit()

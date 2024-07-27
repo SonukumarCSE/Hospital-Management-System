@@ -79,6 +79,20 @@ Before running the application, you need to set up the MySQL database and tables
 3. **View Doctors**: Displays all registered doctors.
 4. **Book Appointment**: Schedules an appointment for a patient with a doctor, checking availability.
 
+## Screenshots
+
+### 1. Main Menu
+![Main Menu](output_images/sc1.png)
+
+### 2. Add Patient
+![Add Patient](output_images/sc2.png)
+
+### 3. View Patients
+![View Patients](output_images/sc3.png)
+
+### 4. Book Appointment
+![Book Appointment](output_images/sc4.png)
+
 ## Future Improvements
 
 1. **User Authentication**: Implement a login system for doctors, patients, and admins.

@@ -3,7 +3,6 @@ import mysql.connector
 class Doctor:
     def __init__(self, connection):
         self.connection = connection
-        print("sonu1 kumar")
     def view_doctors(self):
         query = "SELECT * FROM doctor"
         try:
